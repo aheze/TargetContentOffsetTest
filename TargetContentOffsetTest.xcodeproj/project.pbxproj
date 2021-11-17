@@ -13,9 +13,6 @@
 		3C5003A02744C2560088B697 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C50039E2744C2560088B697 /* Main.storyboard */; };
 		3C5003A22744C2580088B697 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C5003A12744C2580088B697 /* Assets.xcassets */; };
 		3C5003A52744C2580088B697 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C5003A32744C2580088B697 /* LaunchScreen.storyboard */; };
-		3C5003B02744C2580088B697 /* TargetContentOffsetTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5003AF2744C2580088B697 /* TargetContentOffsetTestTests.swift */; };
-		3C5003BA2744C2580088B697 /* TargetContentOffsetTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5003B92744C2580088B697 /* TargetContentOffsetTestUITests.swift */; };
-		3C5003BC2744C2580088B697 /* TargetContentOffsetTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5003BB2744C2580088B697 /* TargetContentOffsetTestUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,10 +42,7 @@
 		3C5003A42744C2580088B697 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3C5003A62744C2580088B697 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3C5003AB2744C2580088B697 /* TargetContentOffsetTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TargetContentOffsetTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3C5003AF2744C2580088B697 /* TargetContentOffsetTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetContentOffsetTestTests.swift; sourceTree = "<group>"; };
 		3C5003B52744C2580088B697 /* TargetContentOffsetTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TargetContentOffsetTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3C5003B92744C2580088B697 /* TargetContentOffsetTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetContentOffsetTestUITests.swift; sourceTree = "<group>"; };
-		3C5003BB2744C2580088B697 /* TargetContentOffsetTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetContentOffsetTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +74,6 @@
 			isa = PBXGroup;
 			children = (
 				3C5003972744C2560088B697 /* TargetContentOffsetTest */,
-				3C5003AE2744C2580088B697 /* TargetContentOffsetTestTests */,
-				3C5003B82744C2580088B697 /* TargetContentOffsetTestUITests */,
 				3C5003962744C2560088B697 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -108,23 +100,6 @@
 				3C5003A62744C2580088B697 /* Info.plist */,
 			);
 			path = TargetContentOffsetTest;
-			sourceTree = "<group>";
-		};
-		3C5003AE2744C2580088B697 /* TargetContentOffsetTestTests */ = {
-			isa = PBXGroup;
-			children = (
-				3C5003AF2744C2580088B697 /* TargetContentOffsetTestTests.swift */,
-			);
-			path = TargetContentOffsetTestTests;
-			sourceTree = "<group>";
-		};
-		3C5003B82744C2580088B697 /* TargetContentOffsetTestUITests */ = {
-			isa = PBXGroup;
-			children = (
-				3C5003B92744C2580088B697 /* TargetContentOffsetTestUITests.swift */,
-				3C5003BB2744C2580088B697 /* TargetContentOffsetTestUITestsLaunchTests.swift */,
-			);
-			path = TargetContentOffsetTestUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,7 +243,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C5003B02744C2580088B697 /* TargetContentOffsetTestTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +250,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C5003BC2744C2580088B697 /* TargetContentOffsetTestUITestsLaunchTests.swift in Sources */,
-				3C5003BA2744C2580088B697 /* TargetContentOffsetTestUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
